@@ -15,15 +15,8 @@
 <script type="text/javascript" src="js/etherwallet-static.min.js"></script>
 <script type="text/javascript" src="js/etherwallet-master.js"></script>
 <meta name="description" content="MyEgemWallet (MEW) is a free, open-source, client-side interface for generating EGEM wallets & more. Interact with the EGEM blockchain easily & securely.">
-<meta property="og:description"  content="Free, open-source, client-side Ethereum wallet. Enabling you to interact with the blockchain easily & securely.">
-<meta name="twitter:description" content="Free, open-source, client-side Ethereum wallet. Enabling you to interact with the blockchain easily & securely.">
-<meta name="robots" content="index,follow">
-<meta name="googlebot" content="index,follow">
-<meta name="google-site-verification" content="IpChQ00NYUQuNs_7Xs6xlnSdzalOlTUYbBsr8f7OpvM" />
-<link href="images/fav/apple-touch-icon.png" rel="apple-touch-icon" sizes="180x180">
-<link href="images/fav/favicon-32x32.png" rel="icon" type="image/png" sizes="32x32">
-<link href="images/fav/favicon-16x16.png" rel="icon" type="image/png" sizes="16x16">
-<link href="images/fav/manifest.json" rel="manifest">
+<meta property="og:description"  content="Free, open-source, client-side EGEM wallet. Enabling you to interact with the blockchain easily & securely.">
+<meta name="twitter:description" content="Free, open-source, client-side EGEM wallet. Enabling you to interact with the blockchain easily & securely.">
 <link href="images/fav/safari-pinned-tab.svg" rel="mask-icon" color="#2f99b0">
 <link href="images/fav/favicon.ico" rel="shortcut icon">
 <meta name="apple-mobile-web-app-title" content="MyEgemWallet &middot; Your Key to EGEM">
@@ -34,14 +27,15 @@
 <meta property="og:url" content="https://MyEgemWallet.egem.io" />
 <meta property="og:title" content="MyEgemWallet.egem.io  &middot; Your Key to Egem" />
 <meta property="og:type" content="website">
+<!--
 <meta property="og:image" content="/images/myetherwallet-logo-banner.png" />
 <meta property="og:image" content="/images/myetherwallet-logo.png" />
 <meta property="og:image" content="/images/myetherwallet-logo-square.png" />
 <meta property="og:image" content="/images/myetherwallet-banner-fun.jpg" />
-<meta name="twitter:image" content="/images/myetherwallet-logo-twitter.png">
+<meta name="twitter:image" content="/images/myetherwallet-logo-twitter.png"> 
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:site" content="@MyEtherWallet">
-<meta name="twitter:creator" content="@MyEtherWallet">
+<meta name="twitter:creator" content="@MyEtherWallet"> -->
 <script type="application/ld+json">
 {
 "@context": "http://schema.org",

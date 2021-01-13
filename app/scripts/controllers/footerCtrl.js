@@ -7,7 +7,7 @@ var footerCtrl = function($scope, globalService) {
     $scope.showBlocks = window.location.protocol == "https:";
     $scope.setBlockNumbers = function() {
         if (!$scope.showBlocks) return;
-        ajaxReq.getCurrentBlock(function(data) { $scope.currentBlockNumber = data.data; });
+        ajaxReq.getCurrentBlock(function(data) {console.log('test'); $scope.currentBlockNumber = data.data; });
     }
     $scope.setBlockNumbers();
     $scope.globalService = globalService;

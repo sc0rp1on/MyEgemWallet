@@ -203,13 +203,12 @@
 
 </footer>
 
-<!--@@if (site === 'mew' ) { @@include( './footer-disclaimer-modal.tpl',   { "site": "mew" } ) }
+@@if (site === 'mew' ) { @@include( './footer-disclaimer-modal.tpl',   { "site": "mew" } ) }
 @@if (site === 'cx'  ) { @@include( './footer-disclaimer-modal.tpl',   { "site": "cx"  } ) }
-
+<!--
 @@if (site === 'mew' ) { @@include( './deprecationWarningModal.tpl',   { "site": "mew" } ) }
 @@if (site === 'cx'  ) { @@include( './deprecationWarningModal.tpl',   { "site": "cx"  } ) }
 -->
-
 </main>
 </body>
 </html>

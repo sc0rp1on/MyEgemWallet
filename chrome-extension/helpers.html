@@ -16,15 +16,8 @@
 <script type="text/javascript" src="js/etherwallet-static.min.js"></script>
 <script type="text/javascript" src="js/etherwallet-master.js"></script>
 <meta name="description" content="MyEgemWallet (MEW) is a free, open-source, client-side interface for generating EGEM wallets & more. Interact with the EGEM blockchain easily & securely.">
-<meta property="og:description"  content="Free, open-source, client-side Ethereum wallet. Enabling you to interact with the blockchain easily & securely.">
-<meta name="twitter:description" content="Free, open-source, client-side Ethereum wallet. Enabling you to interact with the blockchain easily & securely.">
-<meta name="robots" content="index,follow">
-<meta name="googlebot" content="index,follow">
-<meta name="google-site-verification" content="IpChQ00NYUQuNs_7Xs6xlnSdzalOlTUYbBsr8f7OpvM" />
-<link href="images/fav/apple-touch-icon.png" rel="apple-touch-icon" sizes="180x180">
-<link href="images/fav/favicon-32x32.png" rel="icon" type="image/png" sizes="32x32">
-<link href="images/fav/favicon-16x16.png" rel="icon" type="image/png" sizes="16x16">
-<link href="images/fav/manifest.json" rel="manifest">
+<meta property="og:description"  content="Free, open-source, client-side EGEM wallet. Enabling you to interact with the blockchain easily & securely.">
+<meta name="twitter:description" content="Free, open-source, client-side EGEM wallet. Enabling you to interact with the blockchain easily & securely.">
 <link href="images/fav/safari-pinned-tab.svg" rel="mask-icon" color="#2f99b0">
 <link href="images/fav/favicon.ico" rel="shortcut icon">
 <meta name="apple-mobile-web-app-title" content="MyEgemWallet &middot; Your Key to EGEM">
@@ -35,14 +28,15 @@
 <meta property="og:url" content="https://MyEgemWallet.egem.io" />
 <meta property="og:title" content="MyEgemWallet.egem.io  &middot; Your Key to Egem" />
 <meta property="og:type" content="website">
+<!--
 <meta property="og:image" content="/images/myetherwallet-logo-banner.png" />
 <meta property="og:image" content="/images/myetherwallet-logo.png" />
 <meta property="og:image" content="/images/myetherwallet-logo-square.png" />
 <meta property="og:image" content="/images/myetherwallet-banner-fun.jpg" />
-<meta name="twitter:image" content="/images/myetherwallet-logo-twitter.png">
+<meta name="twitter:image" content="/images/myetherwallet-logo-twitter.png"> 
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:site" content="@MyEtherWallet">
-<meta name="twitter:creator" content="@MyEtherWallet">
+<meta name="twitter:creator" content="@MyEtherWallet"> -->
 <script type="application/ld+json">
 {
 "@context": "http://schema.org",
@@ -335,11 +329,11 @@
     <div class="" ng-controller="helpersCtrl">
 
   <h1>
-    Convert Ethererum Units (e.g. Ether <-> Wei)
+    Convert EGEM Units (e.g. EGEM <-> Wei)
   </h1>
 
   <h2 class="p">
-    Ether Wei Converter
+    EGEM Wei Converter
   </h2>
 
   <section class="mono">
@@ -1190,8 +1184,72 @@
 
 </footer>
 
+ <article class="modal fade" id="disclaimerModal" tabindex="-1">
+  <section class="modal-dialog">
+    <section class="modal-content">
 
+      <div class="modal-body">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close Dialog">&times;</button>
 
+        <h2 class="modal-title text-info" translate="FOOTER_4">Disclaimer</h2>
+
+        <p class="small"><strong>Be safe &amp; secure:</strong> <a href="https://kb.myetherwallet.com/getting-started/protecting-yourself-and-your-funds.html" target="_blank" rel="noopener noreferrer"> We highly recommend that you read our guide on How to Prevent Loss &amp; Theft for some recommendations on how to be proactive about your security.</a></p>
+
+        <p class="small"><strong>Always backup your keys: </strong> MyEgemWallet.egem.io &amp; MyEgemWallet CX are not "web wallets". You do not create an account or give us your funds to hold onto. No data leaves your computer / your browser. We make it easy for you to create, save, and access your information and interact with the blockchain.</p>
+
+        <p class="small"><strong>We are not responsible for any loss: </strong> EGEM, MyEgemWallet.com & MyEgemWallet CX, and some of the underlying Javascript libraries we use are under active development. While we have thoroughly tested &amp; tens of thousands of wallets have been successfully created by people all over the globe, there is always the possibility something unexpected happens that causes your funds to be lost. Please do not invest more than you are willing to lose, and please be careful.</p>
+
+        <p class="small"><strong> Translations of MyEgemWallet: </strong> The community has done an amazing job translating MyEgemWallet into a variety of languages. However, MyEgemWallet can only verify the validity and accuracy of the information provided in English and, because of this, the English version of our website is the official text. </p>
+
+        <p class="small"><strong>MIT License</strong> Copyright &copy; 2015-2017 MyEgemWallet INC</p>
+
+        <p class="small">Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:</p>
+
+        <p class="small">The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.</p>
+
+        <p class="small"><strong>THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.</strong></p>
+      </div>
+
+      <div class="modal-footer">
+        <button class="btn btn-default" data-dismiss="modal">Okay</button>
+      </div>
+
+    </section>
+  </section>
+</article>
+ 
+
+<!--
+ <article class="modal depreciation-modal fade" id="deprecationWarning" tabindex="-1" ng-controller='deprecationCtrl'>
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-body">
+        <div class="depriciation-head">
+          <button type="button" class="close" ng-click="closeModal()" aria-label="Close Dialog">&times;</button>
+        </div>
+        </div>
+        <div class="depriciation-body">
+          <h3>Notice of Vintage MEW Removal</h3>
+          <br /> 
+          <p>
+            After October 20th, 2019, Vintage MEW will no longer be available. <br />
+            As we look towards the future, we are dedicating all our resources to MEW5 and beyond. <br />
+            Thank you for being with us on this journey. <br />
+            Vintage MEW will still be accessible via <a href="https://www.github.com/kvhnuke/etherwallet/" rel="noopener noreferrer"> Github</a> for offline use.
+          </p>
+          <br /> 
+          <br /> 
+          <a href="https://www.myetherwallet.com/" rel="noopener noreferrer"> Click here to be taken to our current interface, MEW V5.</a>
+          <br /> 
+          <br /> 
+        </div>
+      </div>
+    </div>
+  </div>
+</article>
+ 
+
+-->
 </main>
 </body>
 </html>

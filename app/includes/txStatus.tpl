@@ -109,7 +109,7 @@
               Amount
             </td>
             <td>
-              {{ txInfo.valueStr }}
+              {{ txInfo.value / 10e18 }} EGEM
             </td>
           </tr>
           <tr>
@@ -166,8 +166,7 @@
               </small>
             </td>
           </tr>
-        <!--
-          <tr>
+          <!--<tr>
             <td>
               <a class="account-help-icon"
                  href="https://kb.myetherwallet.com/gas/what-is-gas-ethereum.html"
@@ -181,11 +180,10 @@
               </span>
             </td>
             <td>
-              ({{ txFee.eth }} ETH)
+              ({{ txFee.eth }} EGEM)
               <small>({{ txFee.usd }} USD)</small>
             </td>
-          </tr>
-        -->
+          </tr>-->
           <tr>
             <td translate="OFFLINE_Step2_Label_6">
               Data
