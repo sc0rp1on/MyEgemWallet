@@ -2,9 +2,9 @@
 <html lang="en" ng-app="mewApp">
 <head>
   <meta charset="utf-8">
-  <title>MyEgemWallet.egem.io</title>
-  <link rel="canonical" href="https://MyEgemWallet.egem.io" />
-  <meta name="description" content="MyEgemWallet.egem.io is a free, open-source, client-side interface for generating EGEM wallets &amp; more. Interact with the EGEM blockchain easily &amp; securely. Double-check the URL ( MyEgemWallet.egem.io ) before unlocking your wallet.">
+  <title>wallet.egem.io</title>
+  <link rel="canonical" href="https://wallet.egem.io" />
+  <meta name="description" content="wallet.egem.io is a free, open-source, client-side interface for generating EGEM wallets &amp; more. Interact with the EGEM blockchain easily &amp; securely. Double-check the URL ( wallet.egem.io ) before unlocking your wallet.">
   <meta name="author" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="css/etherwallet-master.min.css">
@@ -32,6 +32,6 @@
 
 <header class="bg-gradient text-white">
 <section class="container text-center">
-  <a href="https://MyEgemWallet.egem.io/"><img src="images/EGEM-logo.svg" height="50px" width="auto" alt="EGEM Wallet" class="embedded-logo" /></a>
+  <a href="https://wallet.egem.io/"><img src="images/EGEM-logo.svg" height="50px" width="auto" alt="EGEM Wallet" class="embedded-logo" /></a>
 </section>
 </header>

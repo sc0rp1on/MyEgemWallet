@@ -338,7 +338,7 @@ PARITY_Old                      :  "(parity-07) There is already a transaction w
 PARITY_TooCheapToReplace        :  "(parity-08) TX Fee is too low. It does not satisfy your node's minimal fee (minimal: (d+), got: (d+)). Try increasing the gas price and/or gas limit. [Learn More.](https://kb.myetherwallet.com/transactions/transactions-not-showing-or-pending.html)",
 
 
-FOOTER_1                        :  'Free, open-source, client-side interface for generating Ethereum wallets &amp; more. Interact with the Ethereum blockchain easily &amp; securely. Double-check the URL ( myetherwallet.com ) before unlocking your wallet.',
+FOOTER_1                        :  'Free, open-source, client-side interface for generating EGEM wallets &amp; more. Interact with the EGEM blockchain easily &amp; securely. Double-check the URL ( wallet.egem.io ) before unlocking your wallet.',
 FOOTER_1b                       :  'Created by',
 FOOTER_2                        :  'Donations greatly appreciated',
 FOOTER_3                        :  'Client-side wallet generation by',
@@ -495,7 +495,7 @@ sidebar_TransHistory            :  'Transaction History',
 
 SUCCESS_1                       :  'Valid address',
 SUCCESS_2                       :  'Wallet successfully decrypted',
-SUCCESS_3                       :  'Your TX has been broadcast to the network. This does not mean it has been mined & sent. During times of extreme volume, it may take 3+ hours to send. 1) Check your TX below. 2) If it is pending for hours or disappears, use the Check TX Status Page to replace. 3) Use [ETH Gas Station](https://ethgasstation.info/) to see what gas price is optimal. 4) Save your TX Hash in case you need it later:  ',
+SUCCESS_3                       :  'Your TX has been broadcast to the network. This does not mean it has been mined & sent. During times of extreme volume, it may take 3+ hours to send. 1) Check your TX below. 2) If it is pending for hours or disappears, use the Check TX Status Page to replace. 3) Save your TX Hash in case you need it later:  ',
 SUCCESS_4                       :  'Your wallet was successfully added',
 SUCCESS_5                       :  'File Selected',
 SUCCESS_6                       :  'You are successfully connected',

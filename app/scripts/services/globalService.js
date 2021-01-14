@@ -44,21 +44,35 @@ var globalService = function($http, $httpParamSerializerJQLike) {
   //   cx: true
   // },
   offlineTransaction: {
-    id: 5,
+    id: 4,
     name: "NAV_Offline",
     url:"offline-transaction",
     mew: true,
     cx: false
   },
   contracts: {
-    id: 6,
+    id: 5,
     name: "NAV_Contracts",
     url: "contracts",
     mew: true,
     cx: true
   },
+  txStatus: {
+    id: 6,
+    name: "NAV_CheckTxStatus",
+    url: "check-tx-status",
+    mew: true,
+    cx: true
+  },
+  viewWalletInfo: {
+    id: 7,
+    name: "NAV_ViewWallet",
+    url: "view-wallet-info",
+    mew: true,
+    cx: false
+  },
   ens: {
-    id:7,
+    id:8,
     name: "NAV_ENS",
     url: "ens",
     mew: true,
@@ -71,20 +85,7 @@ var globalService = function($http, $httpParamSerializerJQLike) {
     mew: true,
     cx: true
   },
-  txStatus: {
-    id: 9,
-    name: "NAV_CheckTxStatus",
-    url: "check-tx-status",
-    mew: true,
-    cx: true
-  },
-  viewWalletInfo: {
-    id: 10,
-    name: "NAV_ViewWallet",
-    url: "view-wallet-info",
-    mew: true,
-    cx: false
-  },
+  
   signMsg: {
     id: 11,
     name: "NAV_SignMsg",

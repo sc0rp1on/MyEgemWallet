@@ -4,13 +4,13 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <title>MyEgemWallet</title>
-<meta property="og:title" content="MyEgemWallet.egem.io: Your Key to EGEM">
-<meta property="og:site_name" content="MyEgemWallet.egem.io: Your Key to EGEM">
-<meta name="twitter:title" content="MyEgemWallet.egem.io: Your Key to EGEM">
-<meta name="apple-mobile-web-app-title" content="MyEgemWallet.egem.io: Your Key to EGEM">
-<link href="https://MyEgemWallet.egem.io" rel="canonical">
-<meta content="https://MyEgemWallet.egem.io" property="og:url">
-<meta content="https://MyEgemWallet.egem.io" name="twitter:url">
+<meta property="og:title" content="wallet.egem.io: Your Key to EGEM">
+<meta property="og:site_name" content="wallet.egem.io: Your Key to EGEM">
+<meta name="twitter:title" content="wallet.egem.io: Your Key to EGEM">
+<meta name="apple-mobile-web-app-title" content="wallet.egem.io: Your Key to EGEM">
+<link href="https://wallet.egem.io" rel="canonical">
+<meta content="https://wallet.egem.io" property="og:url">
+<meta content="https://wallet.egem.io" name="twitter:url">
 <link rel="stylesheet" href="css/etherwallet-master.min.css">
 <script type="text/javascript" src="js/etherwallet-static.min.js"></script>
 <script type="text/javascript" src="js/etherwallet-master.js"></script>
@@ -24,8 +24,8 @@
 <meta name="msapplication-config" content="images/fav/browserconfig.xml">
 <meta name="theme-color" content="#1d6986">
 <meta name="apple-mobile-web-app-status-bar-style" content="#1d6986">
-<meta property="og:url" content="https://MyEgemWallet.egem.io" />
-<meta property="og:title" content="MyEgemWallet.egem.io  &middot; Your Key to Egem" />
+<meta property="og:url" content="https://wallet.egem.io" />
+<meta property="og:title" content="wallet.egem.io  &middot; Your Key to Egem" />
 <meta property="og:type" content="website">
 <!--
 <meta property="og:image" content="/images/myetherwallet-logo-banner.png" />

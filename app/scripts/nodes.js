@@ -22,7 +22,7 @@ nodes.nodeTypes = {
 	EOSC: "EOSC",
 	AKA: "AKA",
 	ESN: "ESN",
-	PIRL: "PIRL",
+	// PIRL: "PIRL",
 	ETHO: "ETHO",
 	ATH: "ATH",
 	ILT: "ILT",
@@ -397,19 +397,19 @@ nodes.nodeList = {
 		service: "ethersocial.org",
 		lib: new nodes.customNode("https://api.esn.gonspool.com", "")
 	},
-	pirl: {
-		name: "PIRL",
-		blockExplorerTX: "https://poseidon.pirl.io/explorer/transaction/[[txHash]]",
-		blockExplorerAddr: "https://poseidon.pirl.io/explorer/address/[[address]]",
-		type: nodes.nodeTypes.PIRL,
-		eip155: true,
-		chainId: 3125659152,
-		tokenList: require("./tokens/pirlTokens.json"),
-		abiList: require("./abiDefinitions/pirlAbi.json"),
-		estimateGas: true,
-		service: "pirl.io",
-		lib: new nodes.customNode("https://wallrpc.pirl.io", "")
-	},
+	// pirl: {
+	// 	name: "PIRL",
+	// 	blockExplorerTX: "https://poseidon.pirl.io/explorer/transaction/[[txHash]]",
+	// 	blockExplorerAddr: "https://poseidon.pirl.io/explorer/address/[[address]]",
+	// 	type: nodes.nodeTypes.PIRL,
+	// 	eip155: true,
+	// 	chainId: 3125659152,
+	// 	tokenList: require("./tokens/pirlTokens.json"),
+	// 	abiList: require("./abiDefinitions/pirlAbi.json"),
+	// 	estimateGas: true,
+	// 	service: "pirl.io",
+	// 	lib: new nodes.customNode("https://wallrpc.pirl.io", "")
+	// },
 	etho: {
 		name: "ETHO",
 		blockExplorerTX: "https://explorer.ether1.org/tx/[[txHash]]",

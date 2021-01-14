@@ -1,7 +1,7 @@
 <section class="pre-footer">
   <div class="container">
     <p>
-      MyEgemWallet.com does not hold your keys for you. We cannot access accounts, recover keys, reset passwords, nor reverse transactions. Protect your keys &amp; always check that you are on correct URL.
+      wallet.egem.io does not hold your keys for you. We cannot access accounts, recover keys, reset passwords, nor reverse transactions. Protect your keys &amp; always check that you are on correct URL.
       <a role="link" tabindex="0" data-toggle="modal" data-target="#disclaimerModal">
         You are responsible for your security.
       </a>
@@ -19,7 +19,7 @@
 
       <p>
         <span translate="FOOTER_1">
-          Free, open-source, client-side interface for generating EGEM wallets &amp; more. Interact with the EGEM blockchain easily &amp; securely. Double-check the URL ( MyEgemWallet.com ) before unlocking your wallet.
+          Free, open-source, client-side interface for generating EGEM wallets &amp; more. Interact with the EGEM blockchain easily &amp; securely. Double-check the URL ( wallet.egem.io ) before unlocking your wallet.
         </span>
       </p>
 
@@ -109,8 +109,8 @@
         </a>
       </p>-->
       <p>
-        <a aria-label="website via my egem wallet dot egem dot io" href="https://www.MyEgemWallet.egem.io" target="_blank" rel="noopener noreferrer" role="link" tabindex="0">
-          MyEgemWallet.egem.io
+        <a aria-label="website via my egem wallet dot egem dot io" href="https://wallet.egem.io" target="_blank" rel="noopener noreferrer" role="link" tabindex="0">
+          wallet.egem.io
         </a>
       </p>
       <!--<p>
@@ -124,13 +124,13 @@
         </a>
       </p>
       <p>
-        <a href="https://myegemwallet.egem.io/helpers.html" target="_blank" rel="noopener noreferrer" role="link" tabindex="0">
+        <a href="https://wallet.egem.io/helpers.html" target="_blank" rel="noopener noreferrer" role="link" tabindex="0">
           Unit Converters &amp; ENS Debugging
         </a>
       </p>
 
       <p>
-        <a href="https://MyEgemWallet.egem.io/signmsg.html" target="_blank" rel="noopener noreferrer" role="link" tabindex="0">
+        <a href="https://wallet.egem.io/signmsg.html" target="_blank" rel="noopener noreferrer" role="link" tabindex="0">
           Sign Message
         </a>
       </p>
