@@ -1,8 +1,8 @@
 {
-  "name": "MyEtherWallet",
+  "name": "MyEgemWallet",
   "version": "3.40.0",
-  "description": "An NPM dist of MyEtherWallet. For easier downloading & updating via CLI.",
-  "author": "MyEtherWallet",
+  "description": "An NPM dist of MyEgemWallet. For easier downloading & updating via CLI.",
+  "author": "MyEgemWallet",
   "license": "ISC",
   "devDependencies": {
     "open": "0.0.5"

@@ -71,28 +71,29 @@ var globalService = function($http, $httpParamSerializerJQLike) {
     mew: true,
     cx: false
   },
-  ens: {
-    id:8,
-    name: "NAV_ENS",
-    url: "ens",
-    mew: true,
-    cx: true
-  },
-  domainsale: {
-    id: 8,
-    name: "NAV_DomainSale",
-    url: "domainsale",
-    mew: true,
-    cx: true
-  },
-  
   signMsg: {
-    id: 11,
+    id: 8,
     name: "NAV_SignMsg",
     url: "sign-message",
     mew: false,
     cx: false
   },
+  ens: {
+    id:9,
+    name: "NAV_ENS",
+    url: "ens",
+    mew: false,
+    cx: false
+  },
+  domainsale: {
+    id: 10,
+    name: "NAV_DomainSale",
+    url: "domainsale",
+    mew: false,
+    cx: false
+  },
+  
+  
   bulkGenerate: {
     id: 12,
     name: "NAV_BulkGenerate",
